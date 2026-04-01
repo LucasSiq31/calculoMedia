@@ -2,8 +2,7 @@
 
 - Projeto desenvolvido a partir da Atividade de Design de Código do curso de Engenharia de Software
 
-##
-Sistema simples que calcula a média de 2 números
+- Sistema simples que calcula a média de 2 números
 
 - Acesso à aplicação para todos os tipos de visores
 
