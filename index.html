@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo Média</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <h1>Cálculo da média</h1>
+            <div class="linha"></div>
+
+            <p>Digite os valores para calcular a média!</p>
+
+            <div class="conta">
+                <p>(</p>
+                <input type="text" id="valor1" placeholder="Nº 1">
+                <p>+</p>
+                <input type="text" id="valor2" placeholder="Nº 2">
+                <p>) / 2 = </p>
+                <p id="resultado"></p>
+            </div>
+
+            <button onclick="calcularMedia()">Calcular</button>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
